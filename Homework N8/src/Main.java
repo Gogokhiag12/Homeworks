@@ -47,6 +47,9 @@ public class Main {
     public static void main(String[] args) {
         palindrome();
         anagram();
+        System.out.println(" - - - - - - - - - Third Exercise - - - - - - - - - ");
+        Rectangle rectangle = new Rectangle(6, 8);
+        rectangle.printData();
 
     }
 }
