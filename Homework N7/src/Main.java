@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     private static int countPositives(int[] a){
@@ -35,7 +37,6 @@ public class Main {
         }
         return count;
     }
-
 
     public static void main(String[] args) {
         int[] array = {4, -3, -7, 3, 6, 8, 9};
