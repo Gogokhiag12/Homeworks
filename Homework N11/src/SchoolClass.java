@@ -6,6 +6,13 @@ public class SchoolClass {
     private String classHead;
     private ArrayList<Subject> subjectList;
 
+    public SchoolClass(int grade, char identificator, String classHead, ArrayList<Subject> subjectList) {
+        this.grade = grade;
+        this.identificator = identificator;
+        this.classHead = classHead;
+        this.subjectList = subjectList;
+    }
+
     public int getGrade() {
         return grade;
     }

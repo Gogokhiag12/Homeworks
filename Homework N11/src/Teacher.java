@@ -8,6 +8,17 @@ public class Teacher {
     private int sinceWhen;
     private Subject which;
 
+    public Teacher(String name, String surname, long id, int age, String mail, int phoneNumber, int sinceWhen, Subject which) {
+        this.name = name;
+        this.surname = surname;
+        this.id = id;
+        this.age = age;
+        this.mail = mail;
+        this.phoneNumber = phoneNumber;
+        this.sinceWhen = sinceWhen;
+        this.which = which;
+    }
+
     public void setAge(int age) {
         this.age = age;
     }

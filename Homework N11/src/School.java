@@ -10,6 +10,21 @@ public class School {
     private ArrayList<Teacher> listOfTeachers;
     private ArrayList<Student> listOfStudents;
 
+    public School(String name, String dateOfEstablishment,
+                  String directorFullName, String email,
+                  int phoneNumber, String address,
+                  ArrayList<Teacher> listOfTeachers,
+                  ArrayList<Student> listOfStudents) {
+        this.name = name;
+        this.dateOfEstablishment = dateOfEstablishment;
+        this.directorFullName = directorFullName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.address = address;
+        this.listOfTeachers = listOfTeachers;
+        this.listOfStudents = listOfStudents;
+    }
+
     public String getName() {
         return name;
     }
