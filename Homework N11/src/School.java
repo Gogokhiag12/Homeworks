@@ -101,4 +101,8 @@ public class School {
         }
         return true;
     }
+
+    public int getStudentsCount(){
+        return listOfStudents.size();
+    }
 }
