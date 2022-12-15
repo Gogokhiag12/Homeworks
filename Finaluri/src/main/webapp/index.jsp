@@ -7,7 +7,7 @@
     <body>
 
     <form action="hello-servlet">
-        <label for="username">Enter User name or email: </label><br>
+        <label for="username">Enter username or email: </label><br>
         <input type="text" id="username" name="username" required><br>
         <label for="password">Enter your Password: </label><br>
         <input type="password" id="password" name="password" required><br><br>
