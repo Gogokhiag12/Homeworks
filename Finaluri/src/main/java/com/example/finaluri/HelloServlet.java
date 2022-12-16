@@ -15,6 +15,7 @@ public class HelloServlet extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        String userName = request.getParameter(Constants.USERNAME);
         response.setContentType("text/html");
 
         // Hello
