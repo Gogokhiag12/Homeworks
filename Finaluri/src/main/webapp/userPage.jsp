@@ -5,7 +5,7 @@
         <title>USER PAGE </title>
     </head>
     <body>
-        <h1>Welcome <%= request.getAttribute(Constants.USERNAME, Constants.SURNAME) %> </h1>
+        <h1>Welcome <%= request.getAttribute(Constants.USERNAME) %> </h1>
         <form action="hello-servlet">
             <label for="newUsername">Enter New Username or Email: </label><br>
             <input type="text" id="newUsername" name="newUsername" placeholder="New Username/Email" required><br><br>

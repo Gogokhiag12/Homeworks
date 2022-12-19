@@ -12,16 +12,19 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         String userName = request.getParameter(Constants.USERNAME);
+        String lastname = request.getParameter(Constants.LASTNAME);
         User user = new User();
         user.setName(userName);
+        user.setLastname(lastname);
         DBManager dbManager = new DBManager();
         if (dbManager.constainsUser(user)) {
             RequestDispatcher dispatcher = request.getRequestDispatcher("userPage.jsp");
             request.setAttribute(Constants.USERNAME, userName);
+            request.setAttribute(Constants.LASTNAME, lastname);
             dispatcher.forward(request, response);
         } else {
             RequestDispatcher dispatcher = request.getRequestDispatcher("incorrectLogin.jsp");
-            request.setAttribute(Constants.USERNAME, userName);
+//            request.setAttribute(Constants.USERNAME, userName);
             dispatcher.forward(request, response);
         }
     }

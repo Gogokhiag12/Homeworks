@@ -16,15 +16,15 @@ public class DBManager {
         try {
             Class.forName(CLASS_NAME);
             Connection conn = DriverManager.getConnection(URL, USER_NAME, PASSWORD);
-            String query = "select * from " + TABLE_NAME + " where name = ?";
+            String query = "select * from " + TABLE_NAME + " where username = ?";
             PreparedStatement pst = conn.prepareStatement(query);
-//            pst.setString(1, user.getUsername());
+            pst.setString(1, user.getUsername());
 //            pst.setString(2, user.getPassword());
 //            pst.setString(3, user.getName());
 //            pst.setString(4, user.getSurname());
 //            pst.setString(5, user.getProfession());
-//            System.out.println(query);
-//            System.out.println(user.getUsername());
+            System.out.println(query);
+            System.out.println(user.getUsername());
             ResultSet rs = pst.executeQuery();
             return rs.next();
         } catch (Exception e) {

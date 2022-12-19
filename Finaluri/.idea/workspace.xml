@@ -53,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Java/Github Projects/Homeworks/Finaluri",
+    "last_opened_file_path": "C:/Java/Github Projects/Homeworks/testSQL",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,7 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671127514777</updated>
       <workItem from="1671127516165" duration="5797000" />
-      <workItem from="1671211108203" duration="4800000" />
+      <workItem from="1671211108203" duration="5154000" />
+      <workItem from="1671471729703" duration="1915000" />
     </task>
     <servers />
   </component>

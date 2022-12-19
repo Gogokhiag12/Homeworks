@@ -4,7 +4,7 @@ public class User {
     private String username;
     private String password;
     private String name;
-    private String surname;
+    private String lastname;
     private String profession;
 
     public String getUsername(){
@@ -19,8 +19,8 @@ public class User {
         return name;
     }
 
-    public String getSurname(){
-        return surname;
+    public String getLastname(){
+        return lastname;
     }
 
     public String getProfession(){
@@ -39,19 +39,19 @@ public class User {
         this.name = name;
     }
 
-    public void setSurname(String surname){
-        this.surname = surname;
+    public void setLastname(String lastname){
+        this.lastname = lastname;
     }
 
     public void setProfession(String profession){
         this.profession = profession;
     }
 
-    public User (String username, String password, String name, String surname, String profession){
+    public User (String username, String password, String name, String lastname, String profession){
         this.username = username;
         this.password = password;
         this.name = name;
-        this.surname = surname;
+        this.lastname = lastname;
         this.profession = profession;
     }
 
