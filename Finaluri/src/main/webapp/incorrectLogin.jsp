@@ -1,3 +1,4 @@
+<%@ page import="com.example.finaluri.Constants" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -6,6 +7,8 @@
   </head>
   <body>
     <h1>Either username or password was incorrect, please try again</h1>
+    <h1> <%= request.getAttribute(Constants.USERNAME) %></h1>
+    <h1> <%= request.getAttribute(Constants.PASSWORD) %></h1>
     <form action="hello-servlet">
       <label for="username">Enter username or email: </label><br>
       <input type="text" id="username" name="username" required><br>

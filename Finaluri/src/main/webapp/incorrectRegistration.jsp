@@ -1,10 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Registration</title>
+    <title>Incorrect Password</title>
   </head>
   <body>
-    <h1>Fill In Your Information To Register</h1>
+    <h1>Your Passwords Didn't Match, Please Try Again</h1>
     <form action="registration-servlet">
       <label for="username">Enter Username or Email: </label><br>
       <input type="text" id="username" name="username" placeholder="Username/Email" required><br><br>

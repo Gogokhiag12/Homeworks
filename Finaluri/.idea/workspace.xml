@@ -53,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Java/Github Projects/Homeworks/testSQL",
+    "last_opened_file_path": "C:/Java/JAVA Projects/untitled",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +78,24 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62652" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -111,7 +129,14 @@
       <updated>1671127514777</updated>
       <workItem from="1671127516165" duration="5797000" />
       <workItem from="1671211108203" duration="5154000" />
-      <workItem from="1671471729703" duration="1915000" />
+      <workItem from="1671471729703" duration="2548000" />
+      <workItem from="1671638946320" duration="478000" />
+      <workItem from="1671821861366" duration="2680000" />
+      <workItem from="1672001656124" duration="144000" />
+      <workItem from="1672052255649" duration="437000" />
+      <workItem from="1672058606054" duration="2624000" />
+      <workItem from="1672065675724" duration="342000" />
+      <workItem from="1672170479131" duration="12118000" />
     </task>
     <servers />
   </component>

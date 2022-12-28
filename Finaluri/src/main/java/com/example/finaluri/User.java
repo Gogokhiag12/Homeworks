@@ -7,6 +7,18 @@ public class User {
     private String lastname;
     private String profession;
 
+    public User(){
+
+    }
+
+    public User (String username, String password, String name, String lastname, String profession){
+        this.username = username;
+        this.password = password;
+        this.name = name;
+        this.lastname = lastname;
+        this.profession = profession;
+    }
+
     public String getUsername(){
         return username;
     }
@@ -47,15 +59,5 @@ public class User {
         this.profession = profession;
     }
 
-    public User (String username, String password, String name, String lastname, String profession){
-        this.username = username;
-        this.password = password;
-        this.name = name;
-        this.lastname = lastname;
-        this.profession = profession;
-    }
 
-    public User(){
-
-    }
 }

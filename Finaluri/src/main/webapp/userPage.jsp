@@ -1,4 +1,5 @@
 <%@ page import="com.example.finaluri.Constants" %>
+<%@ page import="com.example.finaluri.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
@@ -17,7 +18,8 @@
             <input type="text" id="newSurname" name="newSurname" placeholder="New Surname" required><br><br>
             <label for="newProfession">Enter New Profession</label><br>
             <input type="text" id="newProfession" name="newProfession" placeholder="New Profession"><br><br>
-            <input type="submit" value="Update">
+            <input type="submit" value="Update"><br>
         </form>
+        <a href=index.jsp>Log Out</a>
     </body>
 </html>
