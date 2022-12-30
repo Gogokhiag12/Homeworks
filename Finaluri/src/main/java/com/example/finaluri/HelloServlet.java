@@ -21,9 +21,12 @@ public class HelloServlet extends HttpServlet {
         user.setPassword(password);
         DBManager dbManager = new DBManager();
         if (dbManager.constainsUser(user)) {
+            User curr = dbManager.getUser(userName);
             RequestDispatcher dispatcher = request.getRequestDispatcher("userPage.jsp");
             request.setAttribute(Constants.USERNAME, userName);
             request.setAttribute(Constants.PASSWORD, password);
+            request.setAttribute(Constants.NAME, curr.getName());
+            request.setAttribute(Constants.LASTNAME, curr.getLastname());
             dispatcher.forward(request, response);
         } else {
             RequestDispatcher dispatcher = request.getRequestDispatcher("incorrectLogin.jsp");

@@ -27,12 +27,12 @@ public class RegistrationServlet extends HttpServlet {
         user.setPassword(password);
         user.setProfession(profession);
         DBManager dbManager = new DBManager();
-        if (dbManager.constainsUser(user)){
+        if (dbManager.constainsUser2(user)){
             RequestDispatcher dispatcher = request.getRequestDispatcher("userAlreadyExists.jsp");
             dispatcher.forward(request, response);
         } else if (password.equals(confirmPassword)) {
             dbManager.insert(user);
-            RequestDispatcher dispatcher = request.getRequestDispatcher("succesfulRegistration.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("userPage.jsp");
             request.setAttribute(Constants.USERNAME, userName);
             request.setAttribute(Constants.PASSWORD, password);
             request.setAttribute(Constants.NAME, name);

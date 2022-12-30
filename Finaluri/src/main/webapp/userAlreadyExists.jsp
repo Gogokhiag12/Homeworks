@@ -4,7 +4,7 @@
   <title>Incorrect Password</title>
 </head>
 <body>
-<h1>User Already Exists, Please Try Different Datas/Inputs</h1>
+<h1>User with this username/email already exists</h1>
 <form action="registration-servlet">
   <label for="username">Enter Username or Email: </label><br>
   <input type="text" id="username" name="username" placeholder="Username/Email" required><br><br>

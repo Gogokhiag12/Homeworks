@@ -6,10 +6,10 @@
         <title>USER PAGE </title>
     </head>
     <body>
-        <h1>Welcome <%= request.getAttribute(Constants.USERNAME) %> </h1>
-        <form action="user-servlet">
-            <label for="newUsername">Enter New Username or Email: </label><br>
-            <input type="text" id="newUsername" name="newUsername" placeholder="New Username/Email" ><br><br>
+        <h1>Welcome <%= request.getAttribute(Constants.NAME) %>  <%= request.getAttribute(Constants.LASTNAME) %> </h1>
+        <form action="user-servlet" method="post">
+            <label for="username">Enter Your Username or Email: </label><br>
+            <input type="text" id="username" name="username" placeholder="Your Username/Email" ><br><br>
             <label for="newPassword">Enter New Password: </label><br>
             <input type="password" id="newPassword" name="newPassword" placeholder="New Password" ><br><br>
             <label for="newName">Enter New Name: </label><br>

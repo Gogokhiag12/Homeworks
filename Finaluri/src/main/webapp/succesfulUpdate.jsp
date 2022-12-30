@@ -8,8 +8,8 @@
 <body>
 <h1>Your Account Has Updated Succesfully</h1>
 <form action="user-servlet">
-  <label for="newUsername">Enter New Username or Email: </label><br>
-  <input type="text" id="newUsername" name="newUsername" placeholder="New Username/Email" ><br><br>
+  <label for="username">Enter Your Username or Email: </label><br>
+  <input type="text" id="username" name="username" placeholder="Your Username/Email" ><br><br>
   <label for="newPassword">Enter New Password: </label><br>
   <input type="password" id="newPassword" name="newPassword" placeholder="New Password" ><br><br>
   <label for="newName">Enter New Name: </label><br>
